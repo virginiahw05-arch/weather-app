@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Nairobi",
+    "country": "Kenya",
+    "lat": -1.286389,
+    "lon": 36.817223
+  },
+  {
+    "name": "Mombasa",
+    "country": "Kenya",
+    "lat": -4.043477,
+    "lon": 39.668206
+  },
+  {
+    "name": "Kisumu",
+    "country": "Kenya",
+    "lat": -0.091702,
+    "lon": 34.767956
+  },
+  {
+    "name": "Nakuru",
+    "country": "Kenya",
+    "lat": -0.303099,
+    "lon": 36.080025
+  },
+  {
+    "name": "Eldoret",
+    "country": "Kenya",
+    "lat": 0.520374,
+    "lon": 35.2698
+  },
+  {
+    "name": "Thika",
+    "country": "Kenya",
+    "lat": -1.0333,
+    "lon": 37.0692
+  },
+  {
+    "name": "Kitale",
+    "country": "Kenya",
+    "lat": 1.0167,
+    "lon": 35.0
+  },
+  {
+    "name": "Meru",
+    "country": "Kenya",
+    "lat": 0.0476,
+    "lon": 37.6493
+  },
+  {
+    "name": "Nyeri",
+    "country": "Kenya",
+    "lat": -0.4214,
+    "lon": 36.9506
+  },
+  {
+    "name": "Malindi",
+    "country": "Kenya",
+    "lat": 3.2196,
+    "lon": 40.116
+  },
+  {
+    "name": "Garissa",
+    "country": "Kenya",
+    "lat": -0.4543,
+    "lon": 39.6461
+  },
+  {
+    "name": "Kakamega",
+    "country": "Kenya",
+    "lat": 0.282,
+    "lon": 34.7519
+  },
+  {
+    "name": "Embu",
+    "country": "Kenya",
+    "lat": -0.5321,
+    "lon": 37.4559
+  },
+  {
+    "name": "Wajir",
+    "country": "Kenya",
+    "lat": 1.75,
+    "lon": 40.0667
+  },
+  {
+    "name": "Kisii",
+    "country": "Kenya",
+    "lat": -0.677,
+    "lon": 34.7806
+  },
+  {
+    "name": "Bungoma",
+    "country": "Kenya",
+    "lat": 0.5667,
+    "lon": 34.5667
+  },
+  {
+    "name": "Marsabit",
+    "country": "Kenya",
+    "lat": 2.3333,
+    "lon": 37.9833
+  },
+  {
+    "name": "Nanyuki",
+    "country": "Kenya",
+    "lat": 0.0167,
+    "lon": 37.0667
+  },
+  {
+    "name": "Lamu",
+    "country": "Kenya",
+    "lat": -2.2712,
+    "lon": 40.902
+  },
+  {
+    "name": "Lokichoggio",
+    "country": "Kenya",
+    "lat": 4.1936,
+    "lon": 34.0681
+  },
+  {
+    "name": "Abalak",
+    "country": "Kenya"
+  },
+  {
+    "name": "Ahero",
+    "country": "Kenya"
+  },
+  {
+    "name": "Athi River",
+    "country": "Kenya"
+  },
+  {
+    "name": "Baringo",
+    "country": "Kenya"
+  },
+  {
+    "name": "Baricho",
+    "country": "Kenya"
+  },
+  {
+    "name": "Bomet",
+    "country": "Kenya"
+  },
+  {
+    "name": "Busia",
+    "country": "Kenya"
+  },
+  {
+    "name": "Butere",
+    "country": "Kenya"
+  },
+  {
+    "name": "Chavakali",
+    "country": "Kenya"
+  },
+  {
+    "name": "Dadaab",
+    "country": "Kenya"
+  },
+  {
+    "name": "Dagoretti",
+    "country": "Kenya"
+  },
+  {
+    "name": "Elwak",
+    "country": "Kenya"
+  },
+  {
+    "name": "Emuhaya",
+    "country": "Kenya"
+  },
+  {
+    "name": "Gilgil",
+    "country": "Kenya"
+  },
+  {
+    "name": "Githunguri",
+    "country": "Kenya"
+  },
+  {
+    "name": "Homa Bay",
+    "country": "Kenya"
+  },
+  {
+    "name": "Isiolo",
+    "country": "Kenya"
+  },
+  {
+    "name": "Iten",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kajiado",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kakuma",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kapenguria",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kapsabet",
+    "country": "Kenya"
+  },
+  {
+    "name": "Karachuonyo",
+    "country": "Kenya"
+  },
+  {
+    "name": "Karatina",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kericho",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kibera",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kilifi",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kimilili",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kinango",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kitui",
+    "country": "Kenya"
+  },
+  {
+    "name": "Kwale",
+    "country": "Kenya"
+  },
+  {
+    "name": "Laikipia",
+    "country": "Kenya"
+  },
+  {
+    "name": "Lister",
+    "country": "Kenya"
+  },
+  {
+    "name": "Loitokitok",
+    "country": "Kenya"
+  },
+  {
+    "name": "Lodwar",
+    "country": "Kenya"
+  },
+  {
+    "name": "Machakos",
+    "country": "Kenya"
+  },
+  {
+    "name": "Makueni",
+    "country": "Kenya"
+  },
+  {
+    "name": "Mandera",
+    "country": "Kenya"
+  },
+  {
+    "name": "Marigat",
+    "country": "Kenya"
+  },
+  {
+    "name": "Mathare",
+    "country": "Kenya"
+  },
+  {
+    "name": "Migori",
+    "country": "Kenya"
+  },
+  {
+    "name": "Mlolongo",
+    "country": "Kenya"
+  },
+  {
+    "name": "Moyale",
+    "country": "Kenya"
+  },
+  {
+    "name": "Mumias",
+    "country": "Kenya"
+  },
+  {
+    "name": "Mwingi",
+    "country": "Kenya"
+  },
+  {
+    "name": "Nandi Hills",
+    "country": "Kenya"
+  },
+  {
+    "name": "Narok",
+    "country": "Kenya"
+  },
+  {
+    "name": "Ndhiwa",
+    "country": "Kenya"
+  },
+  {
+    "name": "Ngong",
+    "country": "Kenya"
+  },
+  {
+    "name": "Nyahururu",
+    "country": "Kenya"
+  },
+  {
+    "name": "Nyamira",
+    "country": "Kenya"
+  },
+  {
+    "name": "Ogembo",
+    "country": "Kenya"
+  },
+  {
+    "name": "Sotik",
+    "country": "Kenya"
+  },
+  {
+    "name": "Suba",
+    "country": "Kenya"
+  },
+  {
+    "name": "Siaya",
+    "country": "Kenya"
+  },
+  {
+    "name": "Vihiga",
+    "country": "Kenya"
+  },
+  {
+    "name": "Webuye",
+    "country": "Kenya"
+  },
+  {
+    "name": "London",
+    "country": "UK",
+    "lat": 51.5074,
+    "lon": -0.1278
+  },
+  {
+    "name": "New York",
+    "country": "USA",
+    "lat": 40.7128,
+    "lon": -74.006
+  },
+  {
+    "name": "Tokyo",
+    "country": "Japan",
+    "lat": 35.6895,
+    "lon": 139.6917
+  },
+  {
+    "name": "Paris",
+    "country": "France",
+    "lat": 48.8566,
+    "lon": 2.3522
+  },
+  {
+    "name": "Cairo",
+    "country": "Egypt",
+    "lat": 30.0444,
+    "lon": 31.2357
+  },
+  {
+    "name": "Johannesburg",
+    "country": "South Africa",
+    "lat": -26.2041,
+    "lon": 28.0473
+  },
+  {
+    "name": "Lagos",
+    "country": "Nigeria",
+    "lat": 6.5244,
+    "lon": 3.3792
+  },
+  {
+    "name": "Addis Ababa",
+    "country": "Ethiopia",
+    "lat": 8.9806,
+    "lon": 38.7578
+  }
+]

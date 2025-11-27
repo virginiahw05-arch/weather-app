@@ -1,0 +1,20 @@
+{
+  "name": "Wanjiku Weather Info",
+  "short_name": "Wanjiku",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#eef7ff",
+  "theme_color": "#2b8cff",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

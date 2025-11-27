@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wanjiku Weather Info</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="app" class="container">
+    <header class="hero">
+      <div>
+        <h1 class="logo"> Weather focust Info</h1>
+        <p class="tagline">Search any city — weather, environment & lifestyle</p>
+      </div>
+      <nav class="topnav">
+        <button id="logoutBtn" class="btn ghost">Logout</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="search-panel card">
+        <input id="searchInput" placeholder="Search a city (e.g. Nairobi)" autofocus />
+        <button id="searchBtn" class="btn">Search</button>
+        <div id="suggestions" class="suggestions"></div>
+      </section>
+
+      <section id="result" class="card hidden animated">
+        <div class="result-header">
+          <h2 id="cityName">City</h2>
+          <div id="meta" class="meta"></div>
+        </div>
+
+        <div id="weather" class="grid">
+          <div class="weather-current card">
+            <h3>Current weather</h3>
+            <div id="currentWeather">—</div>
+          </div>
+          <div class="air-quality card">
+            <h3>Environment (Air Quality)</h3>
+            <div id="airQuality">—</div>
+          </div>
+          <div class="lifestyle card">
+            <h3>Lifestyle & local summary</h3>
+            <div id="lifestyle">—</div>
+          </div>
+        </div>
+
+        <div class="forecast card">
+          <h3>7-day forecast</h3>
+          <canvas id="forecastChart" height="120"></canvas>
+        </div>
+
+        <div id="extras" class="extras">
+          <button id="saveBtn" class="btn">Save to browser</button>
+          <div id="savedMsg" class="muted"></div>
+        </div>
+      </section>
+
+      <section id="history" class="card">
+        <h3>Saved places (local)</h3>
+        <div id="savedList" class="saved-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">Built with ❤️ — wanjiku designs</footer>
+  </div>
+
+<script src="app.js"></script>
+<script>
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('/service-worker.js').then(()=>console.log('SW registered'));
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login — Wanjiku Weather Info</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="login-bg">
+  <div class="login-card card">
+    <h1>Wanjiku forecast station</h1>
+    <p class="muted">Login or register to access the weather insights</p>
+
+    <input id="username" placeholder="Username" />
+    <input id="password" placeholder="Password" type="password" />
+    <div class="row">
+      <button id="loginBtn" class="btn">Login</button>
+      <button id="registerBtn" class="btn ghost">Register</button>
+    </div>
+
+    <div id="message" class="muted"></div>
+    <small class="muted">Demo: credentials are stored in localStorage — not secure for production.</small>
+  </div>
+
+<script>
+function $(id){return document.getElementById(id)}
+const loginBtn = $("loginBtn"), regBtn = $("registerBtn");
+
+function showMessage(msg, ok=true){
+  $("message").textContent = msg;
+  $("message").style.color = ok ? "#0a0" : "#c00";
+}
+
+loginBtn.onclick = () => {
+  const u = $("username").value.trim(), p = $("password").value;
+  if(!u || !p) return showMessage("Please enter username & password",false);
+  const users = JSON.parse(localStorage.getItem("wanjiku_users")||"{}");
+  if(users[u] && users[u].password === p){
+    localStorage.setItem("wanjiku_session", u);
+    location.href = "index.html";
+  } else showMessage("Invalid credentials", false);
+};
+
+regBtn.onclick = () => {
+  const u = $("username").value.trim(), p = $("password").value;
+  if(!u || !p) return showMessage("Please enter username & password",false);
+  const users = JSON.parse(localStorage.getItem("wanjiku_users")||"{}");
+  if(users[u]) return showMessage("User exists — pick another username", false);
+  users[u] = {password: p, created: Date.now()};
+  localStorage.setItem("wanjiku_users", JSON.stringify(users));
+  showMessage("Registered OK. You can now login.");
+};
+</script>
+</body>
+</html>
